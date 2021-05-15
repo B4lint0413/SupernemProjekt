@@ -84,7 +84,7 @@ th{
     text-align: center;
     margin-top: 25px;
     margin-bottom: 5px;
-    position: sticky;
+    /* position: sticky; */
     top: 23px;
 }
 #Menu > a:link, #Menu > a:visited, #Menu > a:hover{
@@ -242,3 +242,15 @@ img.Tagok{
         margin: auto;
     }
 }*/
+footer{
+    background-color: white;
+    margin-top: 10px;
+    border: black 2px solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer > a > p{
+    color: black;
+    font-size: 120%;
+    text-align: center;
+}
