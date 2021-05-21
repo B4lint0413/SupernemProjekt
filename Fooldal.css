@@ -54,7 +54,7 @@ img{
     margin-top: 0px;
     margin-bottom: 0px;
 }
-div:nth-child(odd) > img{
+/* div:nth-child(odd) > img{
     float: left;
 }
 div:nth-child(even) > img{
@@ -65,7 +65,7 @@ div:nth-child(odd) > h2{
 } 
 div:nth-child(even) > h2{
     text-align: left;
-}
+} */
 table{
     margin: auto;
 }
