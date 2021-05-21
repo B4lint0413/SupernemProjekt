@@ -1,17 +1,10 @@
-h1{
-    text-align: center;
-    font-size: 400%;
-    font-weight: bold;
-}
-h2{
-    font-size: 200%;
-    font-weight: bold;
-    margin-bottom: 0px;
+nav{
+    font-size: 20px;
 }
 #Content{
     background-color: rgba(255, 211, 160, 0.7);
     border: black 3px solid;
-    width: 70%;
+    /* width: 70%; */
     margin-top: 20px;
     margin-bottom: 40px;
     margin: auto;
@@ -48,12 +41,26 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+h1{
+    text-align: center;
+    font-size: 350%;
+    font-weight: bold;
+}
+h2{
+    font-size: 200%;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
 img{
+    max-height: 400px;
+    max-width: 200px;
+}
+/* img{
     width: 100px;
     margin: 10px;
     margin-top: 0px;
     margin-bottom: 0px;
-}
+} */
 /* div:nth-child(odd) > img{
     float: left;
 }
@@ -66,9 +73,9 @@ div:nth-child(odd) > h2{
 div:nth-child(even) > h2{
     text-align: left;
 } */
-table{
+/* table{
     margin: auto;
-}
+} */
 table, th, td{
     border: 2px darkred solid;
     border-collapse: collapse;
@@ -79,12 +86,12 @@ th, td{
 th{
     font-size: 120%;
 }
-#Menu{
+/* #Menu{
     font-variant: small-caps;
     text-align: center;
     margin-top: 25px;
     margin-bottom: 5px;
-    /* position: sticky; */
+    position: sticky;
     top: 23px;
 }
 #Menu > a:link, #Menu > a:visited, #Menu > a:hover{
@@ -104,7 +111,7 @@ th{
     background-color: black;
     color: white;
     border: 2px white solid;
-}
+} */
 /*@media screen and (max-width: 700px){
     #Menu > a:link, #Menu > a:visited, #Menu > a:hover{
         display: block;
@@ -149,7 +156,7 @@ h1.Tagok{
 #Content.Tagok{
     background-color: rgba(255, 255, 255, 0.733);
     border: black 2px solid;
-    width: 70%;
+    /* width: 70%; */
     margin: auto;
     margin-top: 40px;
     margin-bottom: 25px;
@@ -176,7 +183,7 @@ body.Tagok{
 a:link.Tagok, a:visited.Tagok{
     text-decoration: none;
     display: block;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     font-weight: bold;
     font-style: italic;
     color: rgb(36, 36, 36);
@@ -187,18 +194,18 @@ a:hover.Tagok{
     font-size: 101%;
     color: rgb(36, 36, 36);
 }
-img.Tagok{
-    max-width: 400px;
+#PappSzabi{
+    max-width: auto;
     max-height: 200px;
-    float: right;
+    /* float: right;
     margin: 10px;
-    margin-top: 0px;
+    margin-top: 0px; */
 }
 #vissza.Tagok{
     max-height: 100px;
     max-width: 100px;
-    display: block;
-    margin: 10px;
+    /* display: block; */
+    /* margin-bottom: 10px; */
     float: left;
 }
 /*@media screen and (max-width: 700px){
@@ -250,7 +257,10 @@ footer{
     padding-bottom: 10px;
 }
 footer > a > p{
-    color: black;
+    /* color: black; */
     font-size: 120%;
     text-align: center;
+}
+footer.Tagok > a{
+    text-align: right;
 }
